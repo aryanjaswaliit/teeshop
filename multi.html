@@ -1,0 +1,20 @@
+<div id="container"></div>
+<script>
+    // Get a reference to the container element
+var container = document.getElementById("container");
+
+// Loop 100 times to create and append the iframe elements
+for (var i = 0; i < 100; i++) {
+  // Create a new iframe element
+  var newIframe = document.createElement("iframe");
+
+  // Set the attributes of the new iframe
+  newIframe.src = "https://teeshopper.in/store/MJartistic";
+  newIframe.width = "10%";
+  newIframe.height = "10%";
+
+  // Append the new iframe to the container
+  container.appendChild(newIframe);
+}
+
+</script>
